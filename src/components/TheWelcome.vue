@@ -20,9 +20,9 @@ import SupportIcon from './icons/IconSupport.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-<!--    <template #icon>-->
-<!--      <ToolingIcon />-->
-<!--    </template>-->
+    <template #icon>
+      <ToolingIcon />
+    </template>
     <template #heading>Tooling</template>
 
     This project is served and bundled with
@@ -40,11 +40,11 @@ import SupportIcon from './icons/IconSupport.vue'
     More instructions are available in <code>README.md</code>.
   </WelcomeItem>
 
-<!--  <WelcomeItem>-->
-<!--    <template #icon>-->
-<!--      <EcosystemIcon />-->
-<!--    </template>-->
-<!--    <template #heading>Ecosystem</template>-->
+  <WelcomeItem>
+    <template #icon>
+      <EcosystemIcon />
+    </template>
+    <template #heading>Ecosystem</template>
 
     Get official tools and libraries for your project:
     <a target="_blank" href="https://pinia.vuejs.org/">Pinia</a>,
